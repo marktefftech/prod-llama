@@ -1,0 +1,36 @@
+
+
+.homeButton {
+    color: white;
+    padding: 1rem;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5rem;
+    display: flex;
+    margin: auto;
+    align-items: baseline;
+}
+
+.bookText {
+    font-size: 2rem;
+}
+
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+  }
+
+  .iframe-container {
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+  }
+   
+  .iframe-container iframe {
+     border: 0;
+     height: 100%;
+     left: 0;
+     position: absolute;
+     top: 0;
+     width: 100%;
+  }
