@@ -15,16 +15,14 @@ const HomePageTemplate = ({
   meta_description,
   testimonials,
 }) => (
-  <div>
+  <div className='problemChild'>
     <Helmet>
       <title>{meta_title}</title>
       <meta name='description' content={meta_description} />
     </Helmet>
     <section  className='hero is-primary is-bold is-medium'>
-        <img src={P1}  alt="Background of Llama" />      
-      <div  style={{maxHeight: "5px"}} className='hero-body'>   
-        <button className="homeButton"><Link className='bookText' to="/blog/">Start Book</Link></button>
-      </div>
+        <img src={P1}  alt="Background of Llama" />     
+        <button className="homeButton"><Link className='bookText' to="/blog/">Start Book</Link></button> 
     </section>
   </div>
 )

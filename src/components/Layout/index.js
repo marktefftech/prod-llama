@@ -4,6 +4,7 @@ import '../../assets/sass/styles.sass'
 import config from '../../../config'
 import NavBar from '../NavBar'
 import Footer from '../Footer'
+import '../../css/layout.css'
 
 class Layout extends Component {
   constructor (props) {
